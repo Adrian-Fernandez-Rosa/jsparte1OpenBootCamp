@@ -14,3 +14,9 @@ agregar export antes de las funciones, ejemplo:
 export function multiplica(a, b){
     return a * b;
 }
+
+parte 3 de la clase:
+librerias populares: 
+Jquery (obviamente)
+react 
+vue 
