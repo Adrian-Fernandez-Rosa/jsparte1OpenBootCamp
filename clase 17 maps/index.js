@@ -11,7 +11,7 @@ map = new google.maps.Map(document.getElementById("map") , {
     zoom: 11,
     center: posicion
 })
-// primer parrametro en que lugar lo usaremos
+// primer parametro en que lugar lo usaremos
 
      marker = new google.maps.Marker({
         position: posicion,
@@ -43,7 +43,7 @@ function centraMapa(position) {
         lng: position.coords.longitude
     }
     marker.setPosition(nuevaPos)
-    console.log(nuevaPos);
+   // console.log(nuevaPos);
     map.setCenter(nuevaPos);
     
     
